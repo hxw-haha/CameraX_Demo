@@ -1,0 +1,13 @@
+<resources>
+    <declare-styleable name="FullscreenAttrs">
+        <attr name="fullscreenBackgroundColor" format="color" />
+        <attr name="fullscreenTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RecordView">
+        <attr name="stroke_color" format="color" />
+        <attr name="stroke_width" format="dimension" />
+        <!--录制的最大时间，单位秒-->
+        <attr name="max_second" format="integer" />
+    </declare-styleable>
+</resources>
